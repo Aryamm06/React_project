@@ -1,0 +1,111 @@
+.navbar-container{
+    width: 100%;
+}
+.logo{
+   font-size: 1.9rem;
+   color: #fff;
+   text-decoration:none;
+   font-family: Chivo Mono;
+   font-weight: 700;
+   
+
+}
+.nav-links-container{
+   display: flex;
+   align-items: center;
+}
+
+.cart-links{
+   display: inline-block;
+   padding-left: 30px;
+   cursor:pointer;
+
+}
+.logo span{
+   font-family: Chivo mono;
+}
+.nav-links,nav-links-dark{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding-left: 40px;
+   transition: 0.2s ease-in;
+
+}
+   .nav-links-dark{
+       color: #333;
+
+   }
+ .nav-links-dark:hover{
+    color: var(--primary-color);
+ }  
+
+.nav-links:hover{
+   color:var(--primary-color);
+   text-decoration: none;
+}
+.background-dark{
+   background-color: #333;
+}
+.background-transparent{
+   background-color: transparent;
+}
+.relative{
+   position: relative ! important;
+}
+.bg-color{
+   background-color: white;
+}
+.logo-icon{
+   width: 60px;
+   height:60px;
+   margin-left: 50px;
+   
+}
+.link-margin{
+margin-right:50px ;
+}
+.nav-icon{
+   font-size:20px;
+   color: gray;
+   margin-top: 16px;
+   margin-left: 5px;
+}
+.fa-icon{
+   font-size: 15px;
+   color: gray;
+   /* margin-top: 5px; */
+   margin-left: 5px;
+}
+.fa-iconn{
+   font-size: 15px;
+   color: gray;
+   margin-top: 12px;
+   margin-left: 5px;
+}
+.cart-icon{
+    font-size: 20px;
+   color: rgb(218, 20, 20);
+   /* margin-top: 10px; */
+   margin-left: 5px;
+}
+.nav-hover{
+   color: rgb(8, 8, 8);
+}
+.nav-hover:hover{
+   color: rgb(173, 7, 7);
+}
+
+        
+       .custom-toggler.navbar-toggler {
+           border-color: rgb(250, 252, 250);
+       }
+      
+        
+       .custom-toggler .navbar-toggler-icon {
+           background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(139, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+       }
+       #sidebar a.active {
+ color: red;
+}

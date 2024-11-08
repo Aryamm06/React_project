@@ -1,0 +1,39 @@
+.home-page header {
+    background-image: url(../images/img/header-img.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 10px #ffffff;
+}
+
+.mb-5  {
+    text-align: justify;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.footer {
+    background-color: black;
+}
+.p{
+    text-align: justify;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhh */
+.img-fluid{
+    width: 1000px;
+    height: 200px;
+    margin-left: 55px; 
+}
